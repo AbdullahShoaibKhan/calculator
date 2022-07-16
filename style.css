@@ -1,3 +1,9 @@
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
 #container{
     display: grid;
     border: 3px solid white;
@@ -5,7 +11,7 @@
     height: 350px;
     padding: 5px;
     background-color: black;
-    padding: 20px 5px;
+    padding: 10px 5px;
     border-radius: 20px;
 }
 button{
@@ -15,7 +21,7 @@ button{
     font-size: 24px;
 }
 #shell{
-    margin-top: 10%;
+    margin-top: 7%;
     display: grid;
     justify-content: center;
     padding: 5px;
@@ -31,7 +37,7 @@ button{
     width: 230px;
 }
 .btn1{
-    background-color:rgb(243, 162, 12);
+    background-color:#f3a20c;
     color: white;
 }
 .btn1:hover{
@@ -65,9 +71,6 @@ button{
 .equals{
     grid-area:6/1/7/3;
 }
-/* .point{
-    grid-area: 5/3/6/4;
-} */
 .division{
     grid-area:3/4/4/5;
 }
@@ -77,6 +80,3 @@ button{
 .addition{
     grid-area:5/4/7/5;
 }
-/* .subtraction{
-    grid-area: 6/3/7/4;
-} */
